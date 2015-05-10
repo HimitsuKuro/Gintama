@@ -146,6 +146,16 @@ header nav a:hover
     }
 }
 
+@-webkit-keyframes AutoSlide
+{
+   0%, 100% {
+        left: 0px;
+    }
+	 50% {
+        left: -1460px;
+    }
+}
+
 @-moz-keyframes AutoSlide
 {
 	0%, 100% { left: 0px }
