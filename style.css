@@ -188,7 +188,7 @@ article, aside
 {
 	display: inline-block;
  	vertical-align: top;
-    	text-align: justify;
+    text-align: justify;
 	background: url('images/Fond.png');
 	box-shadow: 0px 3px 4px #1c1a19;
 	border-radius: 5px;
@@ -198,7 +198,7 @@ article, aside
 
 article
 {
-	width: 602px;
+	width: 588px;
 	margin-right: 15px;
 	font-size: 15px;
 	opacity: 0.9;
