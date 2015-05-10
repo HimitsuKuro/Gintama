@@ -136,25 +136,28 @@ header nav a:hover
     border-bottom: 3px solid red;
 }
 
-#banniere_image
+@keyframes AutoSlide
 {
-    margin-top: 15px;
-    height: 180px;
-    border-radius: 5px;
-    background: url('images/gintamabantest.jpg') no-repeat;
-    position: relative;
-    box-shadow: 0px 4px 4px #1c1a19;
-    margin-bottom: 25px;
+   0%, 100% {
+        left: 0px;
+    }
+	 50% {
+        left: -1460px;
+    }
 }
 
-
+@-moz-keyframes AutoSlide
+{
+	0%, 100% { left: 0px }
+	50% { left: -1460px; }
+}
 
 #banniere_description
 {
     position: absolute;
     bottom: 0;
     border-radius: 0px 0px 5px 5px;
-    width: 99.5%;
+    width: 900px;
     height: 33px;
     padding-top: 15px;
     padding-left: 4px;
@@ -162,7 +165,9 @@ header nav a:hover
     background-color: rgba(24,24,24,0.8);
     color: white;
     font-size: 18px;
-}
+
+	}
+	
 
 .bouton_rouge
 {
@@ -183,7 +188,38 @@ header nav a:hover
 
 .bouton_rouge:hover
 {
-	border: 3px solid white;
+	border: 2px solid white;
+}
+
+#slideshow 
+{
+	position: relative;
+    width: 900px;
+    height: 180px;
+	margin-top: 15px;
+    margin-bottom: 25px;
+    overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0px 4px 4px #1c1a19;
+}
+
+#sContent li 
+{
+    display: inline;
+}
+
+#sContent 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    margin: 0;            
+    padding: 0;
+    animation-name: AutoSlide;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
 article, aside
