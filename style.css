@@ -136,32 +136,6 @@ header nav a:hover
     border-bottom: 3px solid red;
 }
 
-@keyframes AutoSlide
-{
-   0%, 100% {
-        left: 0px;
-    }
-	 50% {
-        left: -1460px;
-    }
-}
-
-@-webkit-keyframes AutoSlide
-{
-   0%, 100% {
-        left: 0px;
-    }
-	 50% {
-        left: -1460px;
-    }
-}
-
-@-moz-keyframes AutoSlide
-{
-	0%, 100% { left: 0px }
-	50% { left: -1460px; }
-}
-
 #banniere_description
 {
     position: absolute;
@@ -176,8 +150,7 @@ header nav a:hover
     color: white;
     font-size: 18px;
 
-	}
-	
+}
 
 .bouton_rouge
 {
@@ -232,6 +205,26 @@ header nav a:hover
 	animation-timing-function: linear;
 }
 
+@keyframes AutoSlide 
+{
+	0% {left: 0px;}
+	50% {left: -730px}
+	100% {left: -1460px;}
+}
+
+@-moz-keyframes AutoSlide 
+{
+	0%,  100% {left: 0px;}
+	50% {left: -1460px;}
+}
+
+@-webkit-keyframes AutoSlide
+{
+	0% {left: 0px;}
+	50% {left: -730px}
+	100% {left: -1460px;}
+}
+
 article, aside
 {
 	display: inline-block;
@@ -254,7 +247,6 @@ article
 
 aside
 {
-    
     width: 215px;
     padding: 10px;
     font-size: 12px;
@@ -279,13 +271,11 @@ article h2, aside h2
 	width: 125px;
 	height: 175px;
 	padding-left: 10px;
-	
 }
 
 #auteur
 {
    text-align: center; 
-	
 }
 
 #auteur img
