@@ -334,49 +334,76 @@ footer
 {
 	display: inline-block;
 	vertical-align: top;
-
+	margin: 15px;
+	color: #760001;
 }
 
 #news
 {
 
-	height: 150px;
-	width: 30%;
+	height: 200px;
+	width: 29%;
 	border-radius: 5px;
 	border: 1px solid red;
-	margin: 15px 15px;
+	margin: 15px;
 	
 	
+	
+}
+
+#news h1
+{
+	text-align: center;
 }
 
 #galeries
 {
-	width: 28%;
+	height: 200px;
+	width: 29%;
+	border-radius: 5px;
+	border: 1px solid red;
+	margin: 15px;
+	padding: 2px;
+	text-align: center;
 }
 
-#mes_photos img
+#galeries img
 {
     border: 1px solid #181818;
-    margin-right: 2px;
+    margin: 10px;
 }
 
 #mes_amis
 {
-	width: 28%;
+	
+	height: 200px;
+	width: 29%;
+	border-radius: 5px;
+	border: 1px solid red;
+	margin: 15px;
+	
+	
+	
 }
 
 #mes_amis ul
 {
     display: inline-block;
     vertical-align: top;
-    margin-top: 0;
-    width: 48%;
+	
     list-style-image: url('images/star.png');
-    padding-left: 2px;
+
+	
+}
+
+#mes_amis h1
+{
+	text-align: center;
 }
 
 #mes_amis a
 {
     text-decoration: none;
-    color: #760001;
+	text-align: center;
+    
 }
