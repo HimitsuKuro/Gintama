@@ -58,19 +58,24 @@ header
 
 header h1
 {
-	text-shadow: -2px 2px 0px black;
+	text-shadow: -2px 2px 5px black;
     font-family: 'BallparkWeiner', serif;
     font-size: 100px;
 	position: relative;
-	bottom: 50px;
+	top: -225px;
+	left: 200px;
 }
 
-#logo, header h1
+
+
+#logo
 {
-    display: inline-block;
-	vertical-align: top;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 180px;
+	height: 180px;
 }
-
 header nav
 {
 	position: relative;
@@ -256,13 +261,20 @@ article h2, aside h2
 {
 	font-family: 'BallparkWeiner', serif;
 	color: red;
-	text-shadow: -2px 2px 0px black;
+	text-shadow: -2px 2px 2px black;
 }
 
-#Histoire
+article h2
 {
-	font-size: 50px;
-	img:
+	background: url("images/gintamafondtest.jpg") fixed;
+	height: 75px;
+	width: 550px;
+	border-radius: 5px;
+	border: 1px solid red;
+	margin: 15px 15px;
+	padding-top: 10px;
+	font-size: 70px;
+	text-align: center;
 }
 
 .Gintama
@@ -306,4 +318,65 @@ td
 {
 	border: 1px solid red;
 	text-align: center;
+}
+
+footer
+{
+	background: url('images/Fond.png');
+	border-radius: 5px;
+	border: 1px solid red;
+	margin: 15px 0;
+	opacity: 0.9;
+	box-shadow: 0px 3px 4px #1c1a19;
+}
+
+#news, #galeries, #mes_amis
+{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+#news
+{
+
+	height: 150px;
+	width: 30%;
+	border-radius: 5px;
+	border: 1px solid red;
+	margin: 15px 15px;
+	
+	
+}
+
+#galeries
+{
+	width: 28%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#mes_amis
+{
+	width: 28%;
+}
+
+#mes_amis ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url('images/star.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
 }
