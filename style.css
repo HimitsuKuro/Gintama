@@ -340,8 +340,7 @@ footer
 
 #news
 {
-
-	height: 200px;
+	
 	width: 29%;
 	border-radius: 5px;
 	border: 1px solid red;
@@ -351,14 +350,16 @@ footer
 	
 }
 
-#news h1
+#news h3
 {
+	
+	height: 30px;
 	text-align: center;
 }
 
 #galeries
 {
-	height: 200px;
+	
 	width: 29%;
 	border-radius: 5px;
 	border: 1px solid red;
@@ -376,7 +377,7 @@ footer
 #mes_amis
 {
 	
-	height: 200px;
+	
 	width: 29%;
 	border-radius: 5px;
 	border: 1px solid red;
@@ -390,13 +391,13 @@ footer
 {
     display: inline-block;
     vertical-align: top;
-	
-    list-style-image: url('images/star.png');
+	width: 48%;
+    list-style-image: url('images/star.png') ;
 
 	
 }
 
-#mes_amis h1
+#mes_amis h3
 {
 	text-align: center;
 }
