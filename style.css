@@ -286,6 +286,7 @@ aside
 
 .Gintokiimg
 {
+	
 	float: right;
 	width: 175px;
 	height: 175px;
@@ -414,7 +415,7 @@ footer
     display: inline-block;
     vertical-align: top;
 	width: 48%;
-    list-style-image: url('images/star.png') ;
+    list-style-image: url('images/gintamaicon1.gif') ;
 
 	
 }
