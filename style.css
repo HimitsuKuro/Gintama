@@ -45,7 +45,7 @@ header
 {
 	height: 200px;
 	border-radius: 10px 10px;
-	color: red;
+	color: red; 
 	background: url('images/GintamaGintokiBan.jpg') 25%;
 	border-bottom: 10px solid red;
 	box-shadow: 0px 4px 4px #1c1a19;
@@ -154,7 +154,6 @@ header nav a:hover
     background-color: rgba(24,24,24,0.8);
     color: white;
     font-size: 18px;
-
 }
 
 .bouton_rouge
@@ -286,7 +285,6 @@ aside
 
 .Gintokiimg
 {
-	
 	float: right;
 	width: 175px;
 	height: 175px;
@@ -363,26 +361,20 @@ footer
 
 #news
 {
-	
 	width: 29%;
 	border-radius: 5px;
 	border: 1px solid red;
 	margin: 15px;
-	
-	
-	
 }
 
 #news h3
 {
-	
 	height: 30px;
 	text-align: center;
 }
 
 #galeries
 {
-	
 	width: 29%;
 	border-radius: 5px;
 	border: 1px solid red;
@@ -399,15 +391,10 @@ footer
 
 #mes_amis
 {
-	
-	
 	width: 29%;
 	border-radius: 5px;
 	border: 1px solid red;
 	margin: 15px;
-	
-	
-	
 }
 
 #mes_amis ul
@@ -415,9 +402,7 @@ footer
     display: inline-block;
     vertical-align: top;
 	width: 48%;
-    list-style-image: url('images/gintamaicon1.gif') ;
-
-	
+    list-style-image: url('images/gintamaicon1.gif');
 }
 
 #mes_amis h3
@@ -429,5 +414,4 @@ footer
 {
     text-decoration: none;
 	text-align: center;
-    
 }
