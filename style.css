@@ -229,34 +229,38 @@ header nav a:hover
 	100% {left: -1460px;}
 }
 
-#article1, aside
+aside
 {
 	display: inline-block;
  	vertical-align: top;
-    text-align: justify;
 	background: url('images/Fond.png');
+	width: 215px;
+    padding: 10px;
+    font-size: 12px;
+	text-align: justify;	
+	box-shadow: 0px 3px 4px #1c1a19;
+	border-radius: 5px;
+	border: 1px solid red;
+	padding: 10px;
+}
+
+
+#article1, #article2
+{
+	position: relative;
+	width: 588px;
+	margin-right: 15px;
+	font-size: 15px;
+	display: inline-block;
+ 	vertical-align: top;
+	text-align: justify;	
 	box-shadow: 0px 3px 4px #1c1a19;
 	border-radius: 5px;
 	border: 1px solid red;
 	padding: 19px;
 }
 
-#article1
-{
-	width: 588px;
-	margin-right: 15px;
-	font-size: 15px;
-	opacity: 0.9;
-}
-
-aside
-{
-    width: 215px;
-    padding: 10px;
-    font-size: 12px;
-}
-
-#article1 h2, aside h2, #article2 h2
+#article1 h2, #article2 h2, aside h2
 {
 	font-family: 'BallparkWeiner', serif;
 	color: red;
@@ -275,13 +279,24 @@ aside
 	text-align: center;
 }
 
+.back_article
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity: 0.9;
+    background: url('images/Fond.png');
+	z-index: -100;
+}
+
 .Gintama
 {
 	float: right;
 	width: 125px;
 	height: 175px;
 	padding-left: 10px;
-	opacity: initial;
 }
 
 .Gintokiimg
@@ -327,35 +342,7 @@ td
 	text-align: center;
 }
 
-#article2
-{
-	/*position: relative;*/
-	width: 588px;
-	margin-right: 15px;
-	font-size: 15px;
-	display: inline-block;
- 	vertical-align: top;
-	text-align: justify;	
-	box-shadow: 0px 3px 4px #1c1a19;
-	border-radius: 5px;
-	border: 1px solid red;
-	padding: 19px;
-	opacity: 0.9;
-    background: url('images/Fond.png');
-}
 
-/*
-.back_article2
-{
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    opacity: 0.9;
-    background: url('images/Fond.png');
-}
-*/
 
 footer
 {
